@@ -1,0 +1,43 @@
+#################################
+###### KICKSTARTER DATASET ######
+#################################
+
+● backers_count - number of people who backed the project
+● blurb - description of the project
+● category - kickstarter project category
+● converted_pledged_amount - ?
+● country - Country of origin for the campaign
+● created_at - date and time the campaign was created
+● creator - name of the person that started the campaign
+● currency - currency that the asking amount is originally in
+● currency_symbol -
+● currency_trailing_code - ?
+● current_currency - currency that the asking amount is currently in.
+● deadline - date and time for the end of the kickstarter campaign
+● disable_communication - ?
+● friends - ?
+● fx_rate - ?
+● goal - goal amount for the kickstarter campaign
+● id - ?
+● is_backing - ?
+● is_starrable - ?
+● is_starred - ?
+● launched_at - date and time the campaign was launched.
+● location - city, state and country that the campaign was launched
+● name - name of the project
+● permissions - almost 100% empty. No idea what this is.
+● photo - string for photo that appears on the website.
+● pledged - amount of money that has been pledged so far
+● profile - a hodgepodge of information on the internet.
+● slug - the title of the project with dashes between all words.
+● source_url - 
+● spotlight
+● staff_pick
+● state
+● state_changed_at
+● static_usd_rate
+● unread_messages_count
+● unseen_activity_count
+● urls
+● usd_pledged
+● usd_type
