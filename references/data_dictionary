@@ -18,7 +18,6 @@
       2. JAM
       3. ROAD_CLOSED
       4. ACCIDENT
-
 ● uuid - If the alert is connected to a jam - jam ID.
 (Unique system ID. There are 931,216 unique users in the dataset).
 ● roadType -
