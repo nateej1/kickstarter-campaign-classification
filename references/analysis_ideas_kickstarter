@@ -1,0 +1,15 @@
+######################################
+##### KICKSTARTER ANALYSIS IDEAS #####
+######################################
+
+1. Time series analysis to see how campaigns have changed over time (from 2009 to 2019)
+2. Model to predict if a campaign will be successful or fail.
+3. Linear model to see how much money a campaign will earn based on the different categories
+4.
+
+______
+NOTES:
+------
+* Collapse the category variable fewer number of categories (categories found
+  here https://www.kickstarter.com/help/stats) so that we can turn them into dummy
+  variables.
