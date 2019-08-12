@@ -7,9 +7,14 @@
 3. Linear model to see how much money a campaign will earn based on different categories.
 4. Predict how much time it will take for a campaign to meet its goal.
 
+______________
+FEATURE IDEAS:
+--------------
+* Length of campaign
+* campaign relaunch under different names (bool)
+* dummy variable for collapsed category (categories found
+  here https://www.kickstarter.com/help/stats)
+
 ______
 NOTES:
 ------
-* Collapse the category variable fewer number of categories (categories found
-  here https://www.kickstarter.com/help/stats) so that we can turn them into dummy
-  variables.
