@@ -1,27 +1,21 @@
 import pandas as pd
+import numpy as np
 import glob
 import functools
-import numpy as np
 
-def concatenate_and_save_files(file_name_pattern, new_csv_name):
+def read_multiple_csv_and_concat(file_location_pattern_and_name_pattern, new_file_name, file_save_path):
 
-        """
-        Summary:
-        Loads multiple datasets from 01_raw folder with matching name pattern and saves concatenated
-        file to 02_intermediate folder.
+    """
+    EXAMPLE: file_location_pattern_and_name_pattern = '../../data/01_raw/Kickstarter_201*/Kickstarter*'
+    """
 
-        Parameters:
+    files = glob.glob(file_location_pattern_and_name_pattern)
 
-        file_name_pattern (str): this is the name pattern of the files being loaded into the dataspace
-        Ex: For these files in 01_raw folder (data_1.csv, data_2.csv, data_3.csv), the file_name_pattern would
-        be data_*
+    li = []
+    for filename in files:
+        df = pd.read_csv(filename, index_col=None, header=0)
+        li.append(df)
 
-        new_csv_name (str): name of new csv document. Ex: df_new
+    frame = pd.concat(li, axis=0, ignore_index=True)
 
-        Returns:
-        CSV - new concatenated CSV is saved to 02_intermediate folder
-
-        """
-
-    df = pd.concat([pd.read_csv(f, skiprows = 2) for f in glob.glob('../../data/01_raw/{}.csv'.format(file_name_pattern))])
-    return df.to_csv('../../data/02_intermediate/{}.csv'.format(new_csv_name), index=False)
+    frame.to_csv(file_save_path+new_file_name, index=False)

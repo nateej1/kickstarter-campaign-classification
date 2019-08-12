@@ -6,6 +6,8 @@
 2. Categorical model to predict if a campaign will be successful or fail.
 3. Linear model to see how much money a campaign will earn based on different categories.
 4. Predict how much time it will take for a campaign to meet its goal.
+5. Classification problem on the data (understand what types of campaigns are the most profitable,
+  etc., for kickstarter.)
 
 ______________
 FEATURE IDEAS:
