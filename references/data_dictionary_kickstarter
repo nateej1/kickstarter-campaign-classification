@@ -25,19 +25,22 @@
 ● launched_at - date and time the campaign was launched.
 ● location - city, state and country that the campaign was launched
 ● name - name of the project
-● permissions - almost 100% empty. No idea what this is.
-● photo - string for photo that appears on the website.
+● permissions - ? almost 100% empty. No idea what this is.
 ● pledged - amount of money that has been pledged so far
-● profile - a hodgepodge of information on the internet.
 ● slug - the title of the project with dashes between all words.
-● source_url - 
-● spotlight
-● staff_pick
-● state
-● state_changed_at
-● static_usd_rate
-● unread_messages_count
-● unseen_activity_count
-● urls
-● usd_pledged
+● source_url -
+● spotlight - (bool) Was this project spotlighted by kickstarter
+● staff_pick - (bool) is this project a staff pick
+● state - (object) lists the current state of the project. There are 5 possible states:
+    1. live (campaigns that were still ongoing at the time of data collection)\
+    2. successful
+    3. failed
+    4. suspended
+    5. cancelled
+● state_changed_at - date and time the state of the project changed.
+● static_usd_rate - ?
+● unread_messages_count - ?
+● unseen_activity_count - ?
+● urls - ?
+● usd_pledged - (float) amount of money pledged by backers in USD
 ● usd_type
