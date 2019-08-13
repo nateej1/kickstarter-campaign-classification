@@ -27,6 +27,7 @@ NOTES:
   pick the top n features and build our model with that. (wrapper, forward selection/
   backwards elimination)
 * black panther color pallette
+* look into running a naive bayes classification (from sklearn.naive_bayes import GaussianNB)
 
 ____________________
 MOD 5 PROJECT NOTES:
