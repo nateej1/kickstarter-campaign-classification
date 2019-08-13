@@ -18,6 +18,8 @@ FEATURE IDEAS:
   here https://www.kickstarter.com/help/stats)
 * perform clustering analysis on our data and then add in the clusters as a new
   variable in our model (pg. 323 in the machine learning textbook)
+* the USD_type column could be turned into a feature that is a dummy veriable that says
+  is_international
 
 ______
 NOTES:
@@ -28,6 +30,9 @@ NOTES:
   backwards elimination)
 * black panther color pallette
 * look into running a naive bayes classification (from sklearn.naive_bayes import GaussianNB)
+* create heat map of project origin locations. Cool to have it interactive, so that when you click on a city/
+  state, it will show you a list of project names or categories.
+
 
 ____________________
 MOD 5 PROJECT NOTES:
