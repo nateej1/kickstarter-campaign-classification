@@ -20,6 +20,9 @@ FEATURE IDEAS:
   variable in our model (pg. 323 in the machine learning textbook)
 * the USD_type column could be turned into a feature that is a dummy veriable that says
   is_international
+* we are going to have to group our sub_catagory/ catagory variable into smaller
+  groups if we want to do one-hot encoding. The smallest group has 150
+  variables. 
 
 ______
 NOTES:
