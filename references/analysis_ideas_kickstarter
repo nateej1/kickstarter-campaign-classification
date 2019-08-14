@@ -22,7 +22,7 @@ FEATURE IDEAS:
   is_international
 * we are going to have to group our sub_catagory/ catagory variable into smaller
   groups if we want to do one-hot encoding. The smallest group has 150
-  variables. 
+  variables.
 
 ______
 NOTES:
@@ -43,18 +43,18 @@ MOD 5 PROJECT NOTES:
 * Very few rules in here, but want to talk about selecting a dataset.
 * min of 1000 rows and min 10 predictor columns.
 
-Be ale to talk about
+Be able to talk about
 * add professional doc strings for this (need to find resources for this.)
 * chart of all models did and reduction of mean squared error and the selected
   model. Showing that we tried the model would be helpful.
 
 ________________________
-COACH CHECK-IN TODO LIST
+COACH CHECK-IN TO-DO LIST
 ------------------------
 * Explore DATASET
   - understand and label variables with data types
-  - understand if data is normally distributed so that we can understand how to
-    scale our data.
+  - understand if data is normally distributed so that we can scale our dataset
+    appropriately. 
   - central tendency/ distribution/ shape of dataset.
 * Come up with menu of features to show the coach
 * come up with reasons that we are considering different models

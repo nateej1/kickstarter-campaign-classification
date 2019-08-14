@@ -2,45 +2,35 @@
 ###### KICKSTARTER DATASET ######
 #################################
 
-● backers_count - number of people who backed the project
-● blurb - description of the project
-● category - kickstarter project category
-● converted_pledged_amount - ?
-● country - Country of origin for the campaign
-● created_at - date and time the campaign was created
-● creator - name of the person that started the campaign
-● currency - currency that the asking amount is originally in
-● currency_symbol -
-● currency_trailing_code - ?
-● current_currency - currency that the asking amount is currently in.
-● deadline - date and time for the end of the kickstarter campaign
-● disable_communication - ?
-● friends - ?
-● fx_rate - ?
-● goal - goal amount for the kickstarter campaign
-● id - ?
-● is_backing - ?
-● is_starrable - ?
-● is_starred - ?
-● launched_at - date and time the campaign was launched.
-● location - city, state and country that the campaign was launched
-● name - name of the project
-● permissions - ? almost 100% empty. No idea what this is.
-● pledged - amount of money that has been pledged so far
-● slug - the title of the project with dashes between all words.
-● source_url -
+● backers_count - (quantitative) number of people who backed the project
+● blurb - (categorical) description of the project
+● sub_catagory - (categorical) kickstarter project category
+● overall_category (categorical) - kickstarter project category
+● converted_pledged_amount - (numerical)
+● country - (categorical) Country of origin for the campaign
+● created_at - (datetime) date and time the campaign was created
+● creator - (categorical) name of the person that started the campaign
+● currency - (categorical )currency that the asking amount is originally in
+● current_currency - (categorical) currency that the asking amount is in.
+● deadline - (datetime) date and time for the end of the kickstarter campaign
+● disable_communication - (bool) shows if they disabled the comments section
+● fx_rate - (quantitative) exchange rate
+● goal - (quantitative) goal amount for the kickstarter campaign
+● id - (categorical) unique campaign ID
+● launched_at - (datetime) date and time the campaign was launched.
+● city - (categorical) city campaign was launched in
+● country_loc - (categorical) country the campaign was launched in
+● state_loc - (categorical) state the campaign was launched in.
+● name - (categorical) name of the kickstarter project
+● pledged - (quantitative) amount of money that has been pledged so far
 ● spotlight - (bool) Was this project spotlighted by kickstarter
 ● staff_pick - (bool) is this project a staff pick
-● state - (object) lists the current state of the project. There are 5 possible states:
+● state - (categorical) [should be turned into bool] lists the current state of the project.
+  There are 5 possible states:
     1. live (campaigns that were still ongoing at the time of data collection)\
     2. successful
     3. failed
     4. suspended
     5. cancelled
-● state_changed_at - date and time the state of the project changed.
-● static_usd_rate - ?
-● unread_messages_count - ?
-● unseen_activity_count - ?
-● urls - ?
-● usd_pledged - (float) amount of money pledged by backers in USD
-● usd_type
+● state_changed_at - (datetime) date and time the state of the project changed.
+● usd_pledged - (quantitative) amount of money pledged by backers in USD
