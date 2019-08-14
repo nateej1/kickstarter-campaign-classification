@@ -6,7 +6,7 @@
 ● blurb - (categorical) description of the project
 ● sub_catagory - (categorical) kickstarter project category
 ● overall_category (categorical) - kickstarter project category
-● converted_pledged_amount - (numerical)
+● converted_pledged_amount - (quantitative)
 ● country - (categorical) Country of origin for the campaign
 ● created_at - (datetime) date and time the campaign was created
 ● creator - (categorical) name of the person that started the campaign

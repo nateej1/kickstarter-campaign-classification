@@ -23,10 +23,20 @@ FEATURE IDEAS:
 * we are going to have to group our sub_catagory/ catagory variable into smaller
   groups if we want to do one-hot encoding. The smallest group has 150
   variables.
+* Blurb length word count.
+* the delta between created at and launched at.
+* US vs international 
+
 
 ______
 NOTES:
 ------
+* two different models with two different end users:
+  1. kickstarter trying to figure out what to spotlight
+  2. small business owner (creator) who wants to know if their campaigns
+     will be successful. This needs to be more explainable (maybe logistic regression)
+     so that we can explain what they need to improve in order for their campaign
+     to be successful.
 * after we create features we should look into feature selection. Creating
   too many new features could overfit our model, and feature selection would
   pick the top n features and build our model with that. (wrapper, forward selection/
@@ -35,7 +45,9 @@ NOTES:
 * look into running a naive bayes classification (from sklearn.naive_bayes import GaussianNB)
 * create heat map of project origin locations. Cool to have it interactive, so that when you click on a city/
   state, it will show you a list of project names or categories.
-
+* how many ids have multiple names associated with them?
+* look at the correlation between spotlight and success
+* look at the correlation between staff pick and success
 
 ____________________
 MOD 5 PROJECT NOTES:
@@ -52,9 +64,8 @@ ________________________
 COACH CHECK-IN TO-DO LIST
 ------------------------
 * Explore DATASET
-  - understand and label variables with data types
   - understand if data is normally distributed so that we can scale our dataset
-    appropriately. 
+    appropriately.
   - central tendency/ distribution/ shape of dataset.
 * Come up with menu of features to show the coach
 * come up with reasons that we are considering different models
