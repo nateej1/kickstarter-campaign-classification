@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def kickstarter_feature_engineering(kick_intermediate, cluster_features_df):
+def kickstarter_feature_engineering(kick_intermediate):
     """
 
     TEST
@@ -157,7 +157,7 @@ def kickstarter_feature_engineering(kick_intermediate, cluster_features_df):
     kick_inter.reset_index(inplace=True, drop=True)
 
     # let's merge the new cluster feature with this.
-    kick_inter = kick_inter.merge(cluster_features_df,
-                    how='left', on='id')
+    # kick_inter = kick_inter.merge(cluster_features_df,
+    #                 how='left', on='id')
 
     return kick_inter
