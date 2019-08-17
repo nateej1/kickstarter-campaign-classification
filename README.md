@@ -23,7 +23,9 @@ Kickstarter earns 5% commission on projects that are successfully funded. Curren
 * Pandas, jupyter
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+In order to increase the number of successful campaigns, we propose two related solutions: 
+1. Predict Successful Campaigns and promote those with the lowest predicted probability of being successful.
+1. Contact creators from those campaigns that are just below the “success” margin and give them insights that will help them succeed.
 
 ## Getting Started
 
