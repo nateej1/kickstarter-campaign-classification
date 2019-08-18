@@ -13125,24 +13125,7 @@ div#notebook {
 <body>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
-<script>
-  function code_toggle() {
-    if (code_shown){
-      $('div.input').hide('500');
-      $('#toggleButton').val('Show Code')
-    } else {
-      $('div.input').show('500');
-      $('#toggleButton').val('Hide Code')
-    }
-    code_shown = !code_shown
-  }
 
-  $( document ).ready(function(){
-    code_shown=false;
-    $('div.input').hide()
-  });
-</script>
-<form action="javascript:code_toggle()"><input type="submit" id="toggleButton" value="Show Code"></form>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -16885,19 +16868,7 @@ Ratio of of actually successful campaings out of total number of campaings predi
 
 </div>
 </div>
-</div><script>
-  $(document).ready(function(){
-    $('div.prompt').hide();
-    $('div.back-to-top').hide();
-    $('nav#menubar').hide();
-    $('.breadcrumb').hide();
-    $('.hidden-print').hide();
-  });
-</script>
-
-<footer id="attribution" style="float:right; color:#999; background:#fff;">
-Created with Jupyter, delivered by Fastly, rendered by Rackspace.
-</footer>
+</div>
     </div>
   </div>
 </body>
