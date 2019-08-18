@@ -24,8 +24,8 @@ Kickstarter earns 5% commission on projects that are successfully funded. Curren
 
 ## Project Description
 In order to increase the number of successful campaigns, we propose two related solutions:
-1. Predict Successful Campaigns and promote those with the lowest predicted probability of being successful.
-1. Contact creators from those campaigns that are just below the “success” margin and give them insights that will help them succeed.
+* Predict Successful Campaigns and promote those with the lowest predicted probability of being successful.
+* Contact creators from those campaigns that are just below the “success” margin and give them insights that will help them succeed.
 
 ## Getting Started
 
