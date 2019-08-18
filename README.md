@@ -36,5 +36,5 @@ In order to increase the number of successful campaigns, we propose two related 
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Technical Results Notebook](link)
-* [Executive Summary](link)
+* [Technical Results Notebook](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/results/20190816-mlb-DRAFT-final-report.ipynb)
+* [Executive Summary](#)
