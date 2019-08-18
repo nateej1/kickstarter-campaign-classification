@@ -42,7 +42,7 @@ cluster_features_df =  pd.read_csv('../../data/03_processed/KNN_cluster_features
 _to:_
 
 ```
-kick_deduped = pd.read_csv('../../data_sample/02_intermediate/kick_deduped_sample.csv.zip')
+kick_deduped = pd.read_csv('../../data_sample/kick_deduped_sample.csv.zip')
 cluster_features_df =  pd.read_csv('../../data_sample/KNN_cluster_features_.csv'))
 ```
 then run the results file. 
