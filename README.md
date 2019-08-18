@@ -31,7 +31,7 @@ In order to increase the number of successful campaigns, we propose two related 
 
 1. Clone this repo.
 2. A sample of the the deduplicated dataset can be found in the data_sample folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/data_sample).
-3. In order to reproduce results first open the "results" file located in the results folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/results). Then change the two file paths at the beginning of the document 
+3. In order to reproduce results first open the "results" file located in the results folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/results). Then change the two file paths at the beginning of the document
 
 _from:_
 
@@ -45,9 +45,11 @@ _to:_
 kick_deduped = pd.read_csv('../../data_sample/kick_deduped_sample.csv.zip')
 cluster_features_df =  pd.read_csv('../../data_sample/KNN_cluster_features_.csv'))
 ```
-then run the results file. 
+then run the results file.
 
 4. The data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/src)
+
+5. A data dictionary can be found in the references folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/references/data_dictionary_kickstarter)
 
 
 ## Featured Notebooks/Analysis/Deliverables
