@@ -30,9 +30,21 @@ In order to increase the number of successful campaigns, we propose two related 
 ## Getting Started
 
 1. Clone this repo.
-2. A sample of the the deduplicated dataset can be found in the data/02_intermediate.
-3. In order to reproduce results, run the "results" file in the results folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/results).
-3. Data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/src)
+1. A sample of the the deduplicated dataset can be found in the data_sample folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/data_sample).
+1. In order to reproduce results first open the "results" file located in the results folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/results). Then change the two file paths at the beginning of the document from:
+```
+kick_deduped = pd.read_csv('../../data/02_intermediate/kick_deduped.csv.zip')
+cluster_features_df =  pd.read_csv('../../data/03_processed/KNN_cluster_features_.csv'))
+```
+to:
+
+```
+kick_deduped = pd.read_csv('../../data_sample/02_intermediate/kick_deduped_sample.csv.zip')
+cluster_features_df =  pd.read_csv('../../data_sample/KNN_cluster_features_.csv'))
+```
+then run the results file. 
+
+1. Data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/src)
 
 
 ## Featured Notebooks/Analysis/Deliverables
