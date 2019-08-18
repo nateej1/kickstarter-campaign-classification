@@ -134,11 +134,11 @@ def _locate_missing_features_model(X, final_model_features):
     l = []
     prediction_set_features = list(X.columns)
     final_model_feat = final_model_features
-    if len(prediction_set_features) != len(final_model_feat):
-        for origFeat in final_model_feat:
-            if origFeat not in prediction_set_features:
-                l.append(origFeat)
-        return l
+    # if len(prediction_set_features) != len(final_model_feat):
+    for origFeat in final_model_feat:
+        if origFeat not in prediction_set_features:
+            l.append(origFeat)
+    return l
     # else:
     #     print('All Features Match')
 
@@ -146,7 +146,7 @@ def _creat_empty_dataframe(missing_column_list, num_rows):
 
     col_list = missing_column_list
     num_missing_cols = len(missing_column_list)
-    fill_with_zeroes = np.zeros(shape=(num_rows, num_missing_cols)
+    fill_with_zeroes = np.zeros(shape=(num_rows, num_missing_cols))
     new_df = pd.DataFrame(fill_with_zeroes, columns=[col_list])
     return new_df
 
@@ -154,6 +154,6 @@ def prepare_missing_adaboost_columns(X_df, final_model_features, num_rows):
 
     X_fin = X_df
     fin_model_features = final_model_features
-    missing_features , num_cols = _locate_missing_features_model(X_fin, final_model_features)
+    missing_features = _locate_missing_features_model(X_fin, final_model_features)
     missing_feat_df = _creat_empty_dataframe(missing_features, num_rows)
     return pd.concat([X_df, missing_feat_df], axis=1)
