@@ -23,19 +23,18 @@ Kickstarter earns 5% commission on projects that are successfully funded. Curren
 * Pandas, jupyter
 
 ## Project Description
-In order to increase the number of successful campaigns, we propose two related solutions: 
+In order to increase the number of successful campaigns, we propose two related solutions:
 1. Predict Successful Campaigns and promote those with the lowest predicted probability of being successful.
 1. Contact creators from those campaigns that are just below the “success” margin and give them insights that will help them succeed.
 
 ## Getting Started
 
 1. Clone this repo.
-2. A sample of the raw dataset can be found in the data/01_raw folder.
-3. In order to reproduce results, run the file in the results folder.
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+2. A sample of the the deduplicated dataset can be found in the data/02_intermediate.
+3. In order to reproduce results, run the "results" file in the results folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/results).
+3. Data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/src)
+
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [Technical Results Notebook](link)
+* [Executive Summary](link)
