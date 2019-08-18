@@ -1,4 +1,4 @@
-# Supervised Classification [Mod 5 Project]
+# Kickstarter Campaign Classification [Machine Learning]
 
 #### -- Project Status: [Active]
 
