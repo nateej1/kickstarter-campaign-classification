@@ -55,3 +55,7 @@ then run the results file.
 ## Featured Notebooks/Analysis/Deliverables
 * [Technical Results Notebook](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/results/20190816-mlb-DRAFT-final-report.ipynb)
 * [Executive Summary](#)
+
+---
+
+This file structure is based on the [DSSG machine learning pipeline](https://github.com/dssg/hitchhikers-guide/tree/master/sources/curriculum/0_before_you_start/pipelines-and-project-workflow).
