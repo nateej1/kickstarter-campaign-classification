@@ -2,8 +2,6 @@
 
 #### -- Project Status: [Active]
 
-NATEÉ JOHNSON IS EXTRA AWESOMER THAN MISHA BERRIEN
-...
 ## Project Intro/Objective
 Kickstarter is a US based global crowd funding platform focused on bringing funding to creative projects. Since the platform’s launch in 2009, the site has hosted over 159,000 successfully funded projects with over 15 million unique backers. Kickstarter uses an “all-or-nothing” funding system. This means that funds are only dispersed for projects that meet the original funding goal set by the creator.
 
