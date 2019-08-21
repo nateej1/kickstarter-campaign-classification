@@ -49,13 +49,13 @@ cluster_features_df =  pd.read_csv('../../data_sample/KNN_cluster_features_.csv'
 ```
 then run the results file.
 
-4. The data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/src)
+4. The data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter_campaign_classification/tree/master/src)
 
-5. A data dictionary can be found in the references folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/references/data_dictionary_kickstarter)
+5. A data dictionary can be found in the references folder [here](https://github.com/mishaberrien/kickstarter_campaign_classification/tree/master/references)
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Technical Results Notebook](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/results/20190816-mlb-DRAFT-final-report.ipynb)
+* [Technical Results Notebook](https://mishaberrien.com/kickstarter_campaign_classification/)
 * [Executive Summary](#)
 
 ---
