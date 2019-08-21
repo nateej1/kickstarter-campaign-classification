@@ -1,9 +1,9 @@
 # Kickstarter Campaign Classification [Machine Learning]
 
+[![Build Status](https://travis-ci.com/mishaberrien/kickstarter_campaign_classification.svg?branch=master)](https://travis-ci.com/mishaberrien/kickstarter_campaign_classification)
+
 #### -- Project Status: [Active]
 
-NATEÉ JOHNSON IS EXTRA AWESOMER THAN MISHA BERRIEN
-...
 ## Project Intro/Objective
 Kickstarter is a US based global crowd funding platform focused on bringing funding to creative projects. Since the platform’s launch in 2009, the site has hosted over 159,000 successfully funded projects with over 15 million unique backers. Kickstarter uses an “all-or-nothing” funding system. This means that funds are only dispersed for projects that meet the original funding goal set by the creator.
 
@@ -49,13 +49,13 @@ cluster_features_df =  pd.read_csv('../../data_sample/KNN_cluster_features_.csv'
 ```
 then run the results file.
 
-4. The data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/tree/master/src)
+4. The data processing/transformation scripts are being kept in the src folder [here](https://github.com/mishaberrien/kickstarter_campaign_classification/tree/master/src)
 
-5. A data dictionary can be found in the references folder [here](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/references/data_dictionary_kickstarter)
+5. A data dictionary can be found in the references folder [here](https://github.com/mishaberrien/kickstarter_campaign_classification/tree/master/references)
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Technical Results Notebook](https://github.com/mishaberrien/kickstarter-campaign-classification/blob/master/results/20190816-mlb-DRAFT-final-report.ipynb)
+* [Technical Results Notebook](https://mishaberrien.com/kickstarter_campaign_classification/)
 * [Executive Summary](#)
 
 ---

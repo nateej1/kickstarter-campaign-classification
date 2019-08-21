@@ -3,7 +3,7 @@ import numpy as np
 import glob
 import functools
 
-def read_multiple_csv_and_concat(file_location_pattern_and_name_pattern, new_file_name, file_save_path):
+def read_multiple_csv_and_concat(file_location_pattern_and_name_pattern):
 
     """
     EXAMPLE: file_location_pattern_and_name_pattern = '../../data/01_raw/Kickstarter_201*/Kickstarter*'
@@ -18,4 +18,5 @@ def read_multiple_csv_and_concat(file_location_pattern_and_name_pattern, new_fil
 
     frame = pd.concat(li, axis=0, ignore_index=True)
 
-    frame.to_csv(file_save_path+new_file_name, index=False)
+    return frame
+    # frame.to_csv(file_save_path+new_file_name, index=False)
