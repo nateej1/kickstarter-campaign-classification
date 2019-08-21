@@ -5,4 +5,4 @@ setup(name='src',
       description='test of travis and pytest',
       author='Misha Berrien',
       author_email='misha.berrien@gmail.com',
-      packages=['d00_utils'])
+      packages=['d00_utils', 'pandas'])
