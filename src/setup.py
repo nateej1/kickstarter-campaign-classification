@@ -1,12 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-setup(name="d00_utils", packages=find_packages(),
+setup(name='src',
       version='0.0.1',
-      description='a package example',
+      description='test of travis and pytest',
       author='Misha Berrien',
       author_email='misha.berrien@gmail.com',
-      packages=['d00_utils'],
-      install_requires=['pandas',
-                        'numpy',
-                        'glob',
-                        'functools'])
+      packages=['d00_utils'])
