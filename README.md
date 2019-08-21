@@ -1,5 +1,7 @@
 # Kickstarter Campaign Classification [Machine Learning]
 
+https://travis-ci.com/mishaberrien/kickstarter_campaign_classification.svg?branch=master
+
 #### -- Project Status: [Active]
 
 ## Project Intro/Objective
