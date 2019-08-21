@@ -15,4 +15,4 @@ setup(name='src',
       author='Misha Berrien',
       author_email='misha.berrien@gmail.com',
       install_requires=install_requires,
-      packages=['d00_utils'])
+      packages=['d01_data'])

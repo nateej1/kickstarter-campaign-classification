@@ -20,7 +20,3 @@ def read_multiple_csv_and_concat(file_location_pattern_and_name_pattern):
 
     return frame
     # frame.to_csv(file_save_path+new_file_name, index=False)
-
-# def add_one_to_one(num):
-#     num = 1
-#     return num + 1
