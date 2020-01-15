@@ -56,7 +56,8 @@ then run the results file.
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Technical Results Notebook](https://mishaberrien.com/kickstarter_campaign_classification/)
-* [Executive Summary](#)
+* [Executive Summary](https://github.com/nateej1/kickstarter-campaign-classification/blob/master/results/Executive_summary-Kickstarter_campaign_classification.pdf)
+* [Geographic Mapping of Kickstarter Projects](https://nateej1.github.io/kickstarter-campaign-classification/)
 
 ---
 
